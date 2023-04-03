@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15201" started-at="2023-04-03T02:06:10Z" finished-at="2023-04-03T02:06:26Z">
+    <groups>
+      <group name="sanity">
+        <method signature="DemoToursRegistrationTestCase.verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="verifyRegistration" class="omayoblog.testcases.DemoToursRegistrationTestCase"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="15201" started-at="2023-04-03T02:06:10Z" finished-at="2023-04-03T02:06:26Z">
+      <class name="omayoblog.testcases.DemoToursRegistrationTestCase">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="initiateBrowser" is-config="true" duration-ms="11374" started-at="2023-04-03T07:36:11Z" finished-at="2023-04-03T07:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="verifyRegistration" duration-ms="2462" started-at="2023-04-03T07:36:22Z" data-provider="registrationDataProvider" finished-at="2023-04-03T07:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tendulkar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[h223495867]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sachint@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="tearDown" is-config="true" duration-ms="780" started-at="2023-04-03T07:36:25Z" finished-at="2023-04-03T07:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRegistration status=SUCCESS method=DemoToursRegistrationTestCase.verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- omayoblog.testcases.DemoToursRegistrationTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
