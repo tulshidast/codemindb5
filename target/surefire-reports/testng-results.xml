@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15201" started-at="2023-04-03T02:06:10Z" finished-at="2023-04-03T02:06:26Z">
+  <suite name="Suite" duration-ms="12818" started-at="2023-04-04T01:52:41Z" finished-at="2023-04-04T01:52:54Z">
     <groups>
       <group name="sanity">
         <method signature="DemoToursRegistrationTestCase.verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="verifyRegistration" class="omayoblog.testcases.DemoToursRegistrationTestCase"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="15201" started-at="2023-04-03T02:06:10Z" finished-at="2023-04-03T02:06:26Z">
+    <test name="Test" duration-ms="12818" started-at="2023-04-04T01:52:41Z" finished-at="2023-04-04T01:52:54Z">
       <class name="omayoblog.testcases.DemoToursRegistrationTestCase">
-        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="initiateBrowser" is-config="true" duration-ms="11374" started-at="2023-04-03T07:36:11Z" finished-at="2023-04-03T07:36:22Z">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="initiateBrowser" is-config="true" duration-ms="9777" started-at="2023-04-04T07:22:42Z" finished-at="2023-04-04T07:22:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateBrowser -->
-        <test-method status="PASS" signature="verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="verifyRegistration" duration-ms="2462" started-at="2023-04-03T07:36:22Z" data-provider="registrationDataProvider" finished-at="2023-04-03T07:36:25Z">
+        <test-method status="PASS" signature="verifyRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="verifyRegistration" duration-ms="1662" started-at="2023-04-04T07:22:51Z" data-provider="registrationDataProvider" finished-at="2023-04-04T07:22:53Z">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistration -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="tearDown" is-config="true" duration-ms="780" started-at="2023-04-03T07:36:25Z" finished-at="2023-04-03T07:36:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:omayoblog.testcases.DemoToursRegistrationTestCase@1d057a39]" name="tearDown" is-config="true" duration-ms="776" started-at="2023-04-04T07:22:53Z" finished-at="2023-04-04T07:22:54Z">
           <params>
             <param index="0">
               <value>
