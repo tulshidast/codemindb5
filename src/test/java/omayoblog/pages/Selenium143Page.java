@@ -8,6 +8,7 @@ public class Selenium143Page {
 
 	WebDriver driver;
 	WebElement whatIsSeleniumLink;
+	Actions action;
 
 	public Selenium143Page(WebDriver driver) {
 		this.driver = driver;
