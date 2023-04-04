@@ -7,9 +7,6 @@
 			<!-- <exclude name="sanity"></exclude> -->
 		</run>
 	</groups> 
-	<listeners>
-		<listener class-name="com.codemind.b5_project.Listenr"></listener>
-	</listeners>
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="omayoblog.testcases.BaseTestCase" />
